@@ -8,10 +8,10 @@ RSpec.describe "encode & decode methods" do
         end
     end
 
-    # context "for the decode method" do
-    #     it "returns the correct decoded string" do
-    #         output = decode("EMBAXNKEKSYOVQTBJSWBDEMBPHZGJSL", "secretkey")
-    #         expect(output).to eq "theswiftfoxjumpedoverthelazydog"
-    #     end
-    # end
+    context "for the decode method" do
+        it "returns the correct decoded string" do
+            output = decode("EMBAXNKEKSYOVQTBJSWBDEMBPHZGJSL", "secretkey")
+            expect(output).to eq "theswiftfoxjumpedoverthelazydog"
+        end
+    end
 end
